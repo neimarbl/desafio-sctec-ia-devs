@@ -23,3 +23,15 @@ def home():
 @app.get("/status")
 def status(db: Session = Depends(get_db)):
     return {"status": "online", "banco_conectado": True}
+
+#crud completo
+import schemas  # Não esqueça de importar o arquivo de schemas lá no topo!
+
+@app.post("/empreendimentos/", response_model=schemas.Empreendimento, status_code=201)
+def criar_empreendimento(obj: schemas.EmpreendimentoCreate, db: Session = Depends(get_db)):
+    # Transforma o schema em um modelo do banco
+    novo_item = models.Empreendimento(**obj.dict())
+    db.add(novo_item)
+    db.commit()
+    db.refresh(novo_item)
+    return novo_item
