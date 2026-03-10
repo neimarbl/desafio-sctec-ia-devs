@@ -1,7 +1,9 @@
-from fastapi import FastAPI, Depends, HTTPException
-from sqlalchemy.orm import Session
 import models
+import schemas
 from database import SessionLocal, engine
+from sqlalchemy.orm import Session
+from fastapi import FastAPI, Depends, HTTPException
+
 
 # Cria as tabelas no banco de dados automaticamente ao iniciar
 models.Base.metadata.create_all(bind=engine)
@@ -25,7 +27,6 @@ def status(db: Session = Depends(get_db)):
     return {"status": "online", "banco_conectado": True}
 
 #crud completo
-import schemas  # Não esqueça de importar o arquivo de schemas lá no topo!
 
 @app.post("/empreendimentos/", response_model=schemas.Empreendimento, status_code=201)
 def criar_empreendimento(obj: schemas.EmpreendimentoCreate, db: Session = Depends(get_db)):
