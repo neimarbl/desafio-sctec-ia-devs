@@ -1,6 +1,6 @@
 # Desafio SCTEC - Gestão de Empreendimentos de Santa Catarina 
 
-Este projeto é um protótipo de sistema CRUD (Create, Read, Update, Delete) desenvolvido como parte do processo de seleção para a trilha **IA para DEVs** da SCTEC/SENAI. A aplicação foca na organização de informações sobre o ecossistema empreendedor catarinense, permitindo o gerenciamento de empresas nos setores de Tecnologia, Comércio, Indústria, Serviços e Agronegócio.
+Este projeto é um protótipo de sistema CRUD (Create, Read, Update, Delete) desenvolvido como parte do processo de seleção para o curso **IA para DEVs** da SCTEC/SENAI. A aplicação foca na organização de informações sobre o ecossistema empreendedor catarinense, permitindo o gerenciamento de empresas nos setores de Tecnologia, Comércio, Indústria, Serviços e Agronegócio.
 
 ## Tecnologias Utilizadas
 - **Linguagem:** Python 3.10+
@@ -36,5 +36,11 @@ O sistema permite o gerenciamento completo dos empreendimentos com os seguintes 
 6. Acesse a documentação interativa (Swagger) em: `http://localhost:8000/docs`
 
 ## Vídeo Pitch
-[LINK PARA O SEU VÍDEO AQUI]
-*(O vídeo deve ter no máximo 3 minutos e estar hospedado no YouTube ou similar)*
+Clique na imagem abaixo para assistir à demonstração técnica da solução (máximo 3 minutos):
+
+[![Assista ao Vídeo Pitch](https://img.youtube.com)](https://youtu.be/aOjNS7UMO28)
+
+> *Caso a imagem não carregue, utilize o link direto:* [Assista aqui no YouTube](https://youtu.be/aOjNS7UMO28)
+
+
+
