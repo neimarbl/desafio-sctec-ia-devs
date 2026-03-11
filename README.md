@@ -36,11 +36,7 @@ O sistema permite o gerenciamento completo dos empreendimentos com os seguintes 
 6. Acesse a documentação interativa (Swagger) em: `http://localhost:8000/docs`
 
 ## Vídeo Pitch
-Clique na imagem abaixo para assistir à demonstração técnica da solução (máximo 3 minutos):
 
-[![Assista ao Vídeo Pitch](https://img.youtube.com)](https://youtu.be/aOjNS7UMO28)
+O vídeo de apresentação técnica, com a demonstração das funcionalidades e decisões de projeto, está disponível no link abaixo:
 
-> *Caso a imagem não carregue, utilize o link direto:* [Assista aqui no YouTube](https://youtu.be/aOjNS7UMO28)
-
-
-
+**[ASSISTIR VÍDEO PITCH - CLIQUE AQUI](https://youtu.be/aOjNS7UMO28)**
